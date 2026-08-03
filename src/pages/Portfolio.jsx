@@ -1,42 +1,48 @@
 import { useState } from "react";
+import coffeeBranding from "../assets/images/coffee-branding.jpg";
+import startupLogo from "../assets/images/startup-logo.jpg";
+import restaurantSocial from "../assets/images/restaurant-social.jpg";
+import fashionWebsite from "../assets/images/fashion-website.jpg";
+import gymPoster from "../assets/images/gym-poster.jpg";
+import cosmeticsPackaging from "../assets/images/cosmetics-packaging.jpg";
 
 const projects = [
   {
     id: 1,
     title: "Modern Coffee Branding",
     category: "Branding",
-    image: "https://picsum.photos/600/400?1",
+    image: coffeeBranding,
   },
   {
-    id: 2,
-    title: "Tech Startup Logo",
-    category: "Logo",
-    image: "https://picsum.photos/600/400?2",
-  },
-  {
-    id: 3,
-    title: "Restaurant Social Media",
-    category: "Social",
-    image: "https://picsum.photos/600/400?3",
-  },
-  {
-    id: 4,
-    title: "Fashion Website",
-    category: "Website",
-    image: "https://picsum.photos/600/400?4",
-  },
-  {
-    id: 5,
-    title: "Gym Poster",
-    category: "Poster",
-    image: "https://picsum.photos/600/400?5",
-  },
-  {
-    id: 6,
-    title: "Cosmetics Packaging",
-    category: "Packaging",
-    image: "https://picsum.photos/600/400?6",
-  },
+  id: 2,
+  title: "Tech Startup Logo",
+  category: "Logo",
+  image: startupLogo,
+},
+{
+  id: 3,
+  title: "Restaurant Social Media",
+  category: "Social",
+  image: restaurantSocial,
+},
+{
+  id: 4,
+  title: "Fashion Website",
+  category: "Website",
+  image: fashionWebsite,
+},
+{
+  id: 5,
+  title: "Gym Poster",
+  category: "Poster",
+  image: gymPoster,
+},
+{
+  id: 6,
+  title: "Cosmetics Packaging",
+  category: "Packaging",
+  image: cosmeticsPackaging,
+},
 ];
 
 const categories = [
